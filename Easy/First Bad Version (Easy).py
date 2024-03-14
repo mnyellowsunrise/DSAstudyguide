@@ -43,7 +43,7 @@ class Solution:
         # Binary search loop
         while left <= right:
             # Calculate the middle version
-            mid = (left + right) >> 1
+             mid = left + (right - left) // 2
 
             # If the middle version is bad, move the right pointer to mid - 1
             if isBadVersion(mid):
