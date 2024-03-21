@@ -126,3 +126,4 @@ class SolutionBFS:
                     # Start BFS traversal from the current land cell
                     bfs(r, c)
         return islands
+    
